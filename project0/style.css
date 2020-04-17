@@ -1,0 +1,41 @@
+html {
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+.container {
+  height: 30%; }
+
+.h300px {
+  height: 100%;
+  border: 1px solid blue; }
+
+.h300px .h100px {
+  height: 33%;
+  border: 1px solid blue; }
+
+#imgContainer {
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+.opt:hover {
+  background-color: AliceBlue; }
+
+a[href*="address"] {
+  color: blue; }
+
+@media (max-width: 320px) {
+  #indexContsm {
+    display: inline-block; }
+
+  #indexContbg {
+    display: none; } }
+@media (min-width: 321px) {
+  #indexContsm {
+    display: none; }
+
+  #indexContbg {
+    display: inline-block; } }
+
+/*# sourceMappingURL=style.css.map */
